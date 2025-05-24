@@ -8,6 +8,8 @@ import ForgetPassword from './auth/ForgetPassword'
 import ResetPassword from './auth/ResetPassword'
 import VerifyEmail from './auth/VerifyEmail'
 import HeroSection from './components/HeroSection'
+import Profile from './components/Profile'
+import SearchPage from './components/SearchPage'
 
 
 
@@ -20,6 +22,8 @@ function App() {
       <Routes>
         <Route path='/' element={<MainLayout />}>
           <Route index element={<HeroSection />} />
+          <Route path='/profile' element={<Profile />} />
+          <Route path='/search' element={<SearchPage />} />
         </Route>
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />

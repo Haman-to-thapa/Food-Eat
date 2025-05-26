@@ -10,6 +10,7 @@ import VerifyEmail from './auth/VerifyEmail'
 import HeroSection from './components/HeroSection'
 import Profile from './components/Profile'
 import SearchPage from './components/SearchPage'
+import RestaurantDetails from './components/RestaurantDetails'
 
 
 
@@ -23,7 +24,9 @@ function App() {
         <Route path='/' element={<MainLayout />}>
           <Route index element={<HeroSection />} />
           <Route path='/profile' element={<Profile />} />
-          <Route path='/search' element={<SearchPage />} />
+          <Route path='/search/:text' element={<SearchPage />} />
+          <Route path='/restauant/:id' element={<RestaurantDetails />} />
+
         </Route>
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />

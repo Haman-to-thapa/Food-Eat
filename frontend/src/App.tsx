@@ -13,7 +13,7 @@ import SearchPage from './components/SearchPage'
 import RestaurantDetails from './components/RestaurantDetails'
 import Cart from './components/Cart'
 import PageNotFound from './pages/PageNotFound'
-import Restuarant from './components/Restuarant'
+import Restuarant from './admin/Restuarant'
 
 
 

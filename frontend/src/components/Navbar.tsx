@@ -38,7 +38,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center gap-6">
             <Link to='/'>Home</Link>
             <Link to='/profile'>Profile</Link>
-            <Link to='/order'>Order</Link>
+            <Link to='/order/success'>Order</Link>
           </div>
 
           {
@@ -171,7 +171,7 @@ export function SheetDemo() {
             <User />
             <span>Profile</span>
           </Link>
-          <Link to='/order' className="flex items-center gap-4 hover:bg-gray-200 px-3 py-2 rounded-lg cursor-pointer hover:text-gray-900 font-medium">
+          <Link to='/order/success' className="flex items-center gap-4 hover:bg-gray-200 px-3 py-2 rounded-lg cursor-pointer hover:text-gray-900 font-medium">
             <HandPlatter />
             <span>Order</span>
           </Link>

@@ -1,2 +1,15 @@
+# Node.js
+node_modules/
 .env
-node_modules
+dist/
+build/
+*.log
+
+# TypeScript
+*.tsbuildinfo
+
+# OS/macOS
+.DS_Store
+
+# IDE
+.vscode/

@@ -14,6 +14,7 @@ import RestaurantDetails from './components/RestaurantDetails'
 import Cart from './components/Cart'
 import PageNotFound from './pages/PageNotFound'
 import Restuarant from './admin/Restuarant'
+import AddMenu from './admin/AddMenu'
 
 
 
@@ -33,6 +34,7 @@ function App() {
 
           {/* Admin service start form here */}
           <Route path='/admin/restaurant' element={<Restuarant />} />
+          <Route path='/admin/menu' element={<AddMenu />} />
 
         </Route>
         <Route path='/login' element={<Login />} />

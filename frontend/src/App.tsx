@@ -16,6 +16,7 @@ import PageNotFound from './pages/PageNotFound'
 import Restuarant from './admin/Restuarant'
 import AddMenu from './admin/AddMenu'
 import Order from './admin/Order'
+import Success from './components/Success'
 
 
 
@@ -32,6 +33,7 @@ function App() {
           <Route path='/search/:text' element={<SearchPage />} />
           <Route path='/restauant/:id' element={<RestaurantDetails />} />
           <Route path='/cart' element={<Cart />} />
+          <Route path='/order/success' element={<Success />} />
 
           {/* Admin service start form here */}
           <Route path='/admin/restaurant' element={<Restuarant />} />

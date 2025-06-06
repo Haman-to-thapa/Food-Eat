@@ -13,7 +13,7 @@ export interface IUser {
   admin:boolean,
   lastLogin?: Date,
   isVerified?: boolean,
-    resetPasswordToken? : string,
+   resetPasswordToken? : string,
    resetPasswordTokenExpiresAt? : string,
    verificationToken? : string,
    verificationTokenExpiresAt? : Date,

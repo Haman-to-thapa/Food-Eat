@@ -14,7 +14,7 @@ export interface IUser {
   lastLogin?: Date,
   isVerified?: boolean,
    resetPasswordToken? : string,
-   resetPasswordTokenExpiresAt? : string,
+   resetPasswordTokenExpiresAt? : Date,
    verificationToken? : string,
    verificationTokenExpiresAt? : Date,
 

@@ -1,14 +1,16 @@
 import mongoose from 'mongoose'
 
+import { Schema, Document, Types } from 'mongoose'
+
 export interface IRestaurant {
-  user: mongoose.Schema.Types.ObjectId;
-  restaurantName: string,
-  city : string,
-  country:string,
-  deliveryTime:number,
-  cuisines:string[],
-  imageUrl:string;
-  menus:mongoose.Schema.Types.ObjectId[];
+  user: Types.ObjectId;
+  restaurantName: string;
+  city: string;
+  country: string;
+  deliveryTime: number;
+  cuisines: string[];
+  imageUrl: string;
+  menus: Types.ObjectId[];
 }
 
 
